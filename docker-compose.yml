@@ -1,5 +1,5 @@
 services:
-  db.zenon.frauds:
+  db_events:
     image: mysql:9
     environment:
       MYSQL_ROOT_PASSWORD: mysql
