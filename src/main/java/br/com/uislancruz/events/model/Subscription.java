@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 public class Subscription {
 
     @Id
-    private SuscriptionID id;
+    private SubscriptionID id;
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;
@@ -25,11 +25,11 @@ public class Subscription {
 
 
 
-    public SuscriptionID getId() {
+    public SubscriptionID getId() {
         return id;
     }
 
-    public void setId(SuscriptionID id) {
+    public void setId(SubscriptionID id) {
         this.id = id;
     }
 
